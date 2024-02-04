@@ -1,0 +1,38 @@
+.inputs-row {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+
+.button {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: #008;
+}
+
+.add-btn {
+  background: #080;
+  text-align: center;
+}
+
+.remove-btn:hover {
+  background: #00a;
+}
+
+.btn-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
